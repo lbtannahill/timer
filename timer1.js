@@ -1,16 +1,4 @@
 
-// // take off first two of input , sort in order
-// const input = process.argv.slice(2);
-// input.sort();
-
-// // loop through 
-
-// for (let j = 0; j < input.length; j++) {
-//   setTimeout(() => {
-//     process.stdout.write('\x07');
-//   }, j)
-// };
-
 const setTimer = function() {
 
 const input = process.argv.slice(2);
@@ -29,11 +17,3 @@ for (const number of input) {
   } };
 
 setTimer();
-
-//  if (number > 0) {
-//   setTimeout(() => {
-//     process.stdout.write(`.`);
-//   }, input[number])
-// }
-// process.stdout.write('')
-// };
